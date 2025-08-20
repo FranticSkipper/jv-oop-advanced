@@ -19,5 +19,3 @@ public class Circle extends Figure {
         return this.radius * this.radius * Math.PI;
     }
 }
-
-add abstract class Figure and shape implementation
