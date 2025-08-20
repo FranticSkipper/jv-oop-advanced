@@ -44,7 +44,7 @@ public class FigureSupplier {
                     random.nextInt(MAX_FIGURE_SIDE_VALUE) + 1
                 );
             default:
-                return null;
+                return this.getDefaultFigure();
         }
     }
 
